@@ -1,4 +1,4 @@
-mariadb
+mariadb-base
 ============
 
 Mariadb Base
