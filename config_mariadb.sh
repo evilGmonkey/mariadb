@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf /var/lib/mysql
-ln -s /dbdata /var/lib/mysql
 mysql_install_db
 chown -R mysql:mysql /var/lib/mysql/
 /usr/bin/mysqld_safe & 
